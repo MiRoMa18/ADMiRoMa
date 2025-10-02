@@ -1,0 +1,16 @@
+dist
+.env
+.DS_Store
+*.log
+.iml
+.idea/
+out/
+node_modules/
+.vscode/
+coverage/
+*.class
+*.jar
+*.war
+*.ear
+*.db
+ADMiRoMa.iml
