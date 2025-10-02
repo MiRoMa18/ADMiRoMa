@@ -1,6 +1,3 @@
-package proyectoGuardiasOptimizado;
-
-import proyectoGuardiasOptimizado.SistemaGuardias;
 
 public class Main {
     public static void main(String[] args) {

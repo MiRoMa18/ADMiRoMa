@@ -1,4 +1,3 @@
-package proyectoGuardiasOptimizado;
 
 import java.util.Map;
 
@@ -12,7 +11,7 @@ public class Profesor {
     public Profesor(String nombre, Map<String, Map<String, String>> horario) {
         this.nombre = nombre;
         this.horario = horario;
-        this.id = ++contadorIds;
+        this.id = contadorIds++;
         this.numSustituciones = 0;
     }
 
@@ -43,4 +42,9 @@ public class Profesor {
                 ", numSustituciones=" + numSustituciones +
                 '}';
     }
+
+
+
+
+
 }
