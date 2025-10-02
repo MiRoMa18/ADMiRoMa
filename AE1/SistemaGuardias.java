@@ -5,8 +5,8 @@ import java.util.*;
 public class SistemaGuardias {
 
     Scanner sc = new Scanner(System.in);
-    private File packageProfes = new File("AE1/profes");
-    private File sustitucionesFile = new File("AE1/sustituciones/sustituciones.csv");
+    private File packageProfes = new File("profes");
+    private File sustitucionesFile = new File("sustituciones/sustituciones.csv");
     private ArrayList<Profesor> profes;
 
     public void iniciar() {
