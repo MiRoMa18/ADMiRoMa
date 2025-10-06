@@ -1,0 +1,44 @@
+- Comprobar si existo la carpeta de la ruta introducida:
+    - Si no existe, terminar programa.
+    - Si existe, continuar.
+
+- Mostrar menú de que hacer:
+    1. Mostrar información
+    2. Crear carpeta
+    3. Crear archivo
+    4. Eliminar carpeta/archivo
+    5. Actualizar nombre archivo/carpeta
+    6. Salir
+    - Cada vez que se pida una cosa, mostrar arbol de carpeta, para decir que archivo/carpeta se quiere.
+    - Si se elige una opción que no existe, volver a mostrar menú.
+
+- Si se elige 1:
+    - Mostrar nombre, tipo, ubicacion completa, fecha ult. modificacion(Date) y si está oculto o no.
+    - Si es archivo mostrar tamaño en bytes.
+    - Si es carpeta mostrar numero de elementos que contiene, espacio libre y espacio total.
+    - Volver a mostrar menú.
+
+- Si se elige 2:
+    - Crear carpeta en la ruta introducida.
+    - Comprobar que la ruta introducida es una carpeta
+    - Si ya existe una carpeta con ese nombre, mostrar mensaje de error y volver a mostrar menú.
+    - Si se crea correctamente, mostrar mensaje de éxito y volver a mostrar menú.
+
+- Si se elige 3:
+    - Crear archivo en la ruta introducida.
+    - Si ya existe un archivo con ese nombre, mostrar mensaje de error y volver a mostrar menú.
+    - Si se crea correctamente, mostrar mensaje de éxito y volver a mostrar menú.
+
+- Si se elige 4:
+    - Eliminar carpeta/archivo en la ruta introducida.
+    - Si no existe, mostrar mensaje de error y volver a mostrar menú.
+    - Si se elimina correctamente, mostrar mensaje de éxito y volver a mostrar menú.
+
+- Si se elige 5:
+    - Actualizar nombre archivo/carpeta en la ruta introducida.
+    - Si no existe, mostrar mensaje de error y volver a mostrar menú.
+    - Si ya existe un archivo/carpeta con ese nombre, mostrar mensaje de error y volver a mostrar menú.
+    - Si se actualiza correctamente, mostrar mensaje de éxito y volver a mostrar menú.
+
+- Si se elige 6:
+    - Terminar programa.
