@@ -1,0 +1,21 @@
+Examen de Programación Java Primer Trimestre
+Define qué es una variable y explica los tipos primitivos;100;66;33;0
+Define correctamente con todos los tipos primitivos y ejemplos;Define correctamente pero sin ejemplos;Información incompleta o errores menores;No responde o incorrecta
+Explica qué es un bucle for y cuándo usarlo;100;66;33;0
+Explica con sintaxis completa y varios ejemplos de uso;Explica correctamente pero sin ejemplos o sintaxis incompleta;Concepto con errores o muy básico;No responde o incorrecta
+Describe la diferencia entre clase y objeto;100;66;33;0
+Explica ambos conceptos con ejemplos y su relación;Explica correctamente pero sin ejemplos claros;Explica solo uno o con errores conceptuales;No responde o confunde conceptos
+Qué es la herencia en programación orientada a objetos;100;66;33;0
+Explica con ejemplos de superclase, subclase y extends;Explica correctamente sin ejemplos de código;Idea general imprecisa o incompleta;No responde o totalmente incorrecta
+Explica qué hace el método toString() y para qué sirve;100;66;33;0
+Explica función, cómo sobreescribir y ejemplo completo;Explica función correctamente sin ejemplo;Explica parcialmente con errores menores;No responde o no entiende
+Qué es un array y cómo se declara en Java;100;66;33;0
+Define correctamente con declaración, inicialización y ejemplos;Define y declara sin ejemplos de inicialización;Define con sintaxis incorrecta o incompleta;No responde o incorrecta
+Explica la diferencia entre public, private y protected;100;66;33;0
+Explica los tres modificadores con ejemplos de cuándo usar cada uno;Explica correctamente sin ejemplos de uso;Explica solo algunos o con errores;No responde o confunde conceptos
+Qué es una excepción y para qué sirve el try-catch;100;66;33;0
+Explica excepción, try-catch y ejemplo completo;Explica correctamente sin ejemplo de código;Idea básica imprecisa;No responde o no comprende
+Describe qué es un constructor y cuál es su propósito;100;66;33;0
+Explica correctamente con características y ejemplo de uso;Explica concepto sin ejemplo de código;Parcialmente con errores o incompleto;No responde o confunde con otros métodos
+Explica qué son los métodos estáticos y cómo se usan;100;66;33;0
+Explica métodos estáticos, palabra static y ejemplos de uso;Explica concepto sin ejemplos prácticos;Idea básica con imprecisiones;No responde o no entiende

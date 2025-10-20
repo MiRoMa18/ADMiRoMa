@@ -1,0 +1,5 @@
+Ana;Martínez;López;66;33;0;33;66;100;66;33;66;66
+Carlos;García;Fernández;100;100;100;100;100;100;100;100;100;100
+Laura;Rodríguez;Sánchez
+Miguel;Hernández;Pérez
+Sofía;González;Ruiz
