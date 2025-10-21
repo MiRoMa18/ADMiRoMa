@@ -1,0 +1,20 @@
+<canciones>
+    <cancion id="1">
+            <titulo>Lorem ipsum 1</titulo>
+            <artista>Davinci 1</artista>
+            <anyo>1000</anyo>
+            <formato>digital</formato>
+    </cancion>
+    <cancion id="2">
+    <titulo>Lorem Ipsum 2</titulo>
+    <artista>Davinci 2</artista>
+    <anyo>2000</anyo>
+    <formato>disco</formato>
+            </cancion>
+    <cancion id="3">
+    <titulo>Lorem ipsum 3</titulo>
+    <artista>Davinci 3</artista>
+    <anyo>3000</anyo>
+    <formato>digital</formato>
+            </cancion>
+        </canciones>

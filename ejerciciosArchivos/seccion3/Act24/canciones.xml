@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<canciones>
+    <cancion id="1">
+        <titulo>dsa</titulo>
+        <artista>dfs</artista>
+        <anyo>sdf</anyo>
+        <formato>asd</formato>
+    </cancion>
+    <cancion id="2">
+        <titulo>asd</titulo>
+        <artista>asdsa</artista>
+        <anyo>dfds</anyo>
+        <formato>sdfs</formato>
+    </cancion>
+</canciones>
