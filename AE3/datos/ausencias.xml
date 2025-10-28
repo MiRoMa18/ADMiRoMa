@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ausencias>
+    <!-- Ausencias de Pablo Jiménez (Alumno ID 1) -->
+    <ausencia>
+        <id>1</id>
+        <alumnoId>1</alumnoId>
+        <asignaturaId>1</asignaturaId>
+        <horaAusencia>2024-09-15T08:30:00</horaAusencia>
+        <justificada>true</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>2</id>
+        <alumnoId>1</alumnoId>
+        <asignaturaId>3</asignaturaId>
+        <horaAusencia>2024-09-15T10:30:00</horaAusencia>
+        <justificada>true</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>3</id>
+        <alumnoId>1</alumnoId>
+        <asignaturaId>5</asignaturaId>
+        <horaAusencia>2024-10-05T12:00:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>4</id>
+        <alumnoId>1</alumnoId>
+        <asignaturaId>7</asignaturaId>
+        <horaAusencia>2024-10-18T09:00:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <!-- Ausencias de Lucía Martín (Alumno ID 2) -->
+    <ausencia>
+        <id>5</id>
+        <alumnoId>2</alumnoId>
+        <asignaturaId>1</asignaturaId>
+        <horaAusencia>2024-09-20T08:30:00</horaAusencia>
+        <justificada>true</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>6</id>
+        <alumnoId>2</alumnoId>
+        <asignaturaId>3</asignaturaId>
+        <horaAusencia>2024-09-20T10:30:00</horaAusencia>
+        <justificada>true</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>7</id>
+        <alumnoId>2</alumnoId>
+        <asignaturaId>5</asignaturaId>
+        <horaAusencia>2024-09-20T12:00:00</horaAusencia>
+        <justificada>true</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>8</id>
+        <alumnoId>2</alumnoId>
+        <asignaturaId>9</asignaturaId>
+        <horaAusencia>2024-10-10T11:00:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <!-- Ausencias de Diego González (Alumno ID 3) -->
+    <ausencia>
+        <id>9</id>
+        <alumnoId>3</alumnoId>
+        <asignaturaId>1</asignaturaId>
+        <horaAusencia>2024-09-25T08:30:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>10</id>
+        <alumnoId>3</alumnoId>
+        <asignaturaId>1</asignaturaId>
+        <horaAusencia>2024-10-02T08:30:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>11</id>
+        <alumnoId>3</alumnoId>
+        <asignaturaId>1</asignaturaId>
+        <horaAusencia>2024-10-09T08:30:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>12</id>
+        <alumnoId>3</alumnoId>
+        <asignaturaId>3</asignaturaId>
+        <horaAusencia>2024-10-09T10:30:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>13</id>
+        <alumnoId>3</alumnoId>
+        <asignaturaId>5</asignaturaId>
+        <horaAusencia>2024-10-15T12:00:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>14</id>
+        <alumnoId>3</alumnoId>
+        <asignaturaId>7</asignaturaId>
+        <horaAusencia>2024-10-16T09:00:00</horaAusencia>
+        <justificada>true</justificada>
+    </ausencia>
+
+    <!-- Ausencias de Sofía Romero (Alumno ID 4) -->
+    <ausencia>
+        <id>15</id>
+        <alumnoId>4</alumnoId>
+        <asignaturaId>3</asignaturaId>
+        <horaAusencia>2024-09-18T10:30:00</horaAusencia>
+        <justificada>true</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>16</id>
+        <alumnoId>4</alumnoId>
+        <asignaturaId>9</asignaturaId>
+        <horaAusencia>2024-10-08T11:00:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <!-- Ausencias de Marcos López (Alumno ID 5) -->
+    <ausencia>
+        <id>17</id>
+        <alumnoId>5</alumnoId>
+        <asignaturaId>2</asignaturaId>
+        <horaAusencia>2024-09-12T08:30:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>18</id>
+        <alumnoId>5</alumnoId>
+        <asignaturaId>2</asignaturaId>
+        <horaAusencia>2024-09-19T08:30:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>19</id>
+        <alumnoId>5</alumnoId>
+        <asignaturaId>2</asignaturaId>
+        <horaAusencia>2024-09-26T08:30:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>20</id>
+        <alumnoId>5</alumnoId>
+        <asignaturaId>4</asignaturaId>
+        <horaAusencia>2024-09-26T10:30:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>21</id>
+        <alumnoId>5</alumnoId>
+        <asignaturaId>6</asignaturaId>
+        <horaAusencia>2024-10-03T12:00:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>22</id>
+        <alumnoId>5</alumnoId>
+        <asignaturaId>8</asignaturaId>
+        <horaAusencia>2024-10-10T09:00:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>23</id>
+        <alumnoId>5</alumnoId>
+        <asignaturaId>10</asignaturaId>
+        <horaAusencia>2024-10-10T11:00:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>24</id>
+        <alumnoId>5</alumnoId>
+        <asignaturaId>2</asignaturaId>
+        <horaAusencia>2024-10-17T08:30:00</horaAusencia>
+        <justificada>true</justificada>
+    </ausencia>
+
+    <!-- Ausencias de Emma Ruiz (Alumno ID 6) -->
+    <ausencia>
+        <id>25</id>
+        <alumnoId>6</alumnoId>
+        <asignaturaId>4</asignaturaId>
+        <horaAusencia>2024-09-22T10:30:00</horaAusencia>
+        <justificada>true</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>26</id>
+        <alumnoId>6</alumnoId>
+        <asignaturaId>6</asignaturaId>
+        <horaAusencia>2024-09-22T12:00:00</horaAusencia>
+        <justificada>true</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>27</id>
+        <alumnoId>6</alumnoId>
+        <asignaturaId>2</asignaturaId>
+        <horaAusencia>2024-10-11T08:30:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <!-- Ausencias de Adrián Herrera (Alumno ID 7) -->
+    <ausencia>
+        <id>28</id>
+        <alumnoId>7</alumnoId>
+        <asignaturaId>2</asignaturaId>
+        <horaAusencia>2024-09-13T08:30:00</horaAusencia>
+        <justificada>true</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>29</id>
+        <alumnoId>7</alumnoId>
+        <asignaturaId>4</asignaturaId>
+        <horaAusencia>2024-09-13T10:30:00</horaAusencia>
+        <justificada>true</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>30</id>
+        <alumnoId>7</alumnoId>
+        <asignaturaId>6</asignaturaId>
+        <horaAusencia>2024-09-13T12:00:00</horaAusencia>
+        <justificada>true</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>31</id>
+        <alumnoId>7</alumnoId>
+        <asignaturaId>8</asignaturaId>
+        <horaAusencia>2024-10-04T09:00:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <!-- Ausencias de Carla Morales (Alumno ID 8) -->
+    <ausencia>
+        <id>32</id>
+        <alumnoId>8</alumnoId>
+        <asignaturaId>5</asignaturaId>
+        <horaAusencia>2024-09-27T12:00:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>33</id>
+        <alumnoId>8</alumnoId>
+        <asignaturaId>7</asignaturaId>
+        <horaAusencia>2024-10-01T09:00:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <!-- Ausencias de Hugo Vázquez (Alumno ID 9) -->
+    <ausencia>
+        <id>34</id>
+        <alumnoId>9</alumnoId>
+        <asignaturaId>6</asignaturaId>
+        <horaAusencia>2024-09-16T12:00:00</horaAusencia>
+        <justificada>true</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>35</id>
+        <alumnoId>9</alumnoId>
+        <asignaturaId>8</asignaturaId>
+        <horaAusencia>2024-09-23T09:00:00</horaAusencia>
+        <justificada>true</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>36</id>
+        <alumnoId>9</alumnoId>
+        <asignaturaId>10</asignaturaId>
+        <horaAusencia>2024-09-30T11:00:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+
+    <!-- Ausencias de Valentina Núñez (Alumno ID 10) -->
+    <ausencia>
+        <id>37</id>
+        <alumnoId>10</alumnoId>
+        <asignaturaId>10</asignaturaId>
+        <horaAusencia>2024-09-14T11:00:00</horaAusencia>
+        <justificada>true</justificada>
+    </ausencia>
+
+    <ausencia>
+        <id>38</id>
+        <alumnoId>10</alumnoId>
+        <asignaturaId>10</asignaturaId>
+        <horaAusencia>2024-10-12T11:00:00</horaAusencia>
+        <justificada>false</justificada>
+    </ausencia>
+</ausencias>

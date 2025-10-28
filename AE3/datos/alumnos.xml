@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+    <alumno>
+        <id>1</id>
+        <nombre>Pablo Jiménez Navarro</nombre>
+        <curso>1º ESO A</curso>
+        <dni>X1234567A</dni>
+        <fechaNacimiento>15/03/2012</fechaNacimiento>
+        <nombresProgenitores>
+            <progenitor>Juan Jiménez García</progenitor>
+            <progenitor>Carmen Navarro López</progenitor>
+        </nombresProgenitores>
+        <correoProgenitores>
+            <correo>juan.jimenez@email.com</correo>
+            <correo>carmen.navarro@email.com</correo>
+        </correoProgenitores>
+        <asignaturas>
+            <asignaturaId>1</asignaturaId>
+            <asignaturaId>3</asignaturaId>
+            <asignaturaId>5</asignaturaId>
+            <asignaturaId>7</asignaturaId>
+            <asignaturaId>9</asignaturaId>
+        </asignaturas>
+        <ausencias>
+            <ausenciaId>1</ausenciaId>
+            <ausenciaId>2</ausenciaId>
+            <ausenciaId>3</ausenciaId>
+            <ausenciaId>4</ausenciaId>
+        </ausencias>
+    </alumno>
+
+    <alumno>
+        <id>2</id>
+        <nombre>Lucía Martín Serrano</nombre>
+        <curso>1º ESO A</curso>
+        <dni>X2345678B</dni>
+        <fechaNacimiento>22/07/2012</fechaNacimiento>
+        <nombresProgenitores>
+            <progenitor>Miguel Martín Torres</progenitor>
+            <progenitor>Isabel Serrano Ruiz</progenitor>
+        </nombresProgenitores>
+        <correoProgenitores>
+            <correo>miguel.martin@email.com</correo>
+            <correo>isabel.serrano@email.com</correo>
+        </correoProgenitores>
+        <asignaturas>
+            <asignaturaId>1</asignaturaId>
+            <asignaturaId>3</asignaturaId>
+            <asignaturaId>5</asignaturaId>
+            <asignaturaId>7</asignaturaId>
+            <asignaturaId>9</asignaturaId>
+        </asignaturas>
+        <ausencias>
+            <ausenciaId>5</ausenciaId>
+            <ausenciaId>6</ausenciaId>
+            <ausenciaId>7</ausenciaId>
+            <ausenciaId>8</ausenciaId>
+        </ausencias>
+    </alumno>
+
+    <alumno>
+        <id>3</id>
+        <nombre>Diego González Ramírez</nombre>
+        <curso>1º ESO A</curso>
+        <dni>X3456789C</dni>
+        <fechaNacimiento>10/11/2012</fechaNacimiento>
+        <nombresProgenitores>
+            <progenitor>Pedro González Muñoz</progenitor>
+            <progenitor>Ana Ramírez Vega</progenitor>
+        </nombresProgenitores>
+        <correoProgenitores>
+            <correo>pedro.gonzalez@email.com</correo>
+            <correo>ana.ramirez@email.com</correo>
+        </correoProgenitores>
+        <asignaturas>
+            <asignaturaId>1</asignaturaId>
+            <asignaturaId>3</asignaturaId>
+            <asignaturaId>5</asignaturaId>
+            <asignaturaId>7</asignaturaId>
+            <asignaturaId>9</asignaturaId>
+        </asignaturas>
+        <ausencias>
+            <ausenciaId>9</ausenciaId>
+            <ausenciaId>10</ausenciaId>
+            <ausenciaId>11</ausenciaId>
+            <ausenciaId>12</ausenciaId>
+            <ausenciaId>13</ausenciaId>
+            <ausenciaId>14</ausenciaId>
+        </ausencias>
+    </alumno>
+
+    <alumno>
+        <id>4</id>
+        <nombre>Sofía Romero Castro</nombre>
+        <curso>1º ESO A</curso>
+        <dni>X4567890D</dni>
+        <fechaNacimiento>05/01/2013</fechaNacimiento>
+        <nombresProgenitores>
+            <progenitor>Alberto Romero Díaz</progenitor>
+            <progenitor>Elena Castro Morales</progenitor>
+        </nombresProgenitores>
+        <correoProgenitores>
+            <correo>alberto.romero@email.com</correo>
+            <correo>elena.castro@email.com</correo>
+        </correoProgenitores>
+        <asignaturas>
+            <asignaturaId>1</asignaturaId>
+            <asignaturaId>3</asignaturaId>
+            <asignaturaId>5</asignaturaId>
+            <asignaturaId>7</asignaturaId>
+            <asignaturaId>9</asignaturaId>
+        </asignaturas>
+        <ausencias>
+            <ausenciaId>15</ausenciaId>
+            <ausenciaId>16</ausenciaId>
+        </ausencias>
+    </alumno>
+
+    <alumno>
+        <id>5</id>
+        <nombre>Marcos López Ortega</nombre>
+        <curso>2º ESO B</curso>
+        <dni>X5678901E</dni>
+        <fechaNacimiento>18/04/2011</fechaNacimiento>
+        <nombresProgenitores>
+            <progenitor>Francisco López Soto</progenitor>
+            <progenitor>María Ortega Pardo</progenitor>
+        </nombresProgenitores>
+        <correoProgenitores>
+            <correo>francisco.lopez@email.com</correo>
+            <correo>maria.ortega@email.com</correo>
+        </correoProgenitores>
+        <asignaturas>
+            <asignaturaId>2</asignaturaId>
+            <asignaturaId>4</asignaturaId>
+            <asignaturaId>6</asignaturaId>
+            <asignaturaId>8</asignaturaId>
+            <asignaturaId>10</asignaturaId>
+        </asignaturas>
+        <ausencias>
+            <ausenciaId>17</ausenciaId>
+            <ausenciaId>18</ausenciaId>
+            <ausenciaId>19</ausenciaId>
+            <ausenciaId>20</ausenciaId>
+            <ausenciaId>21</ausenciaId>
+            <ausenciaId>22</ausenciaId>
+            <ausenciaId>23</ausenciaId>
+            <ausenciaId>24</ausenciaId>
+        </ausencias>
+    </alumno>
+
+    <alumno>
+        <id>6</id>
+        <nombre>Emma Ruiz Blanco</nombre>
+        <curso>2º ESO B</curso>
+        <dni>X6789012F</dni>
+        <fechaNacimiento>29/09/2011</fechaNacimiento>
+        <nombresProgenitores>
+            <progenitor>David Ruiz Campos</progenitor>
+            <progenitor>Laura Blanco Jiménez</progenitor>
+        </nombresProgenitores>
+        <correoProgenitores>
+            <correo>david.ruiz@email.com</correo>
+            <correo>laura.blanco@email.com</correo>
+        </correoProgenitores>
+        <asignaturas>
+            <asignaturaId>2</asignaturaId>
+            <asignaturaId>4</asignaturaId>
+            <asignaturaId>6</asignaturaId>
+            <asignaturaId>8</asignaturaId>
+            <asignaturaId>10</asignaturaId>
+        </asignaturas>
+        <ausencias>
+            <ausenciaId>25</ausenciaId>
+            <ausenciaId>26</ausenciaId>
+            <ausenciaId>27</ausenciaId>
+        </ausencias>
+    </alumno>
+
+    <alumno>
+        <id>7</id>
+        <nombre>Adrián Herrera Gil</nombre>
+        <curso>2º ESO B</curso>
+        <dni>X7890123G</dni>
+        <fechaNacimiento>14/12/2011</fechaNacimiento>
+        <nombresProgenitores>
+            <progenitor>Javier Herrera Molina</progenitor>
+            <progenitor>Patricia Gil Santos</progenitor>
+        </nombresProgenitores>
+        <correoProgenitores>
+            <correo>javier.herrera@email.com</correo>
+            <correo>patricia.gil@email.com</correo>
+        </correoProgenitores>
+        <asignaturas>
+            <asignaturaId>2</asignaturaId>
+            <asignaturaId>4</asignaturaId>
+            <asignaturaId>6</asignaturaId>
+            <asignaturaId>8</asignaturaId>
+            <asignaturaId>10</asignaturaId>
+        </asignaturas>
+        <ausencias>
+            <ausenciaId>28</ausenciaId>
+            <ausenciaId>29</ausenciaId>
+            <ausenciaId>30</ausenciaId>
+            <ausenciaId>31</ausenciaId>
+        </ausencias>
+    </alumno>
+
+    <alumno>
+        <id>8</id>
+        <nombre>Carla Morales Ibáñez</nombre>
+        <curso>1º ESO B</curso>
+        <dni>X8901234H</dni>
+        <fechaNacimiento>07/06/2012</fechaNacimiento>
+        <nombresProgenitores>
+            <progenitor>Roberto Morales Cruz</progenitor>
+            <progenitor>Silvia Ibáñez Flores</progenitor>
+        </nombresProgenitores>
+        <correoProgenitores>
+            <correo>roberto.morales@email.com</correo>
+            <correo>silvia.ibanez@email.com</correo>
+        </correoProgenitores>
+        <asignaturas>
+            <asignaturaId>5</asignaturaId>
+            <asignaturaId>7</asignaturaId>
+            <asignaturaId>9</asignaturaId>
+        </asignaturas>
+        <ausencias>
+            <ausenciaId>32</ausenciaId>
+            <ausenciaId>33</ausenciaId>
+        </ausencias>
+    </alumno>
+
+    <alumno>
+        <id>9</id>
+        <nombre>Hugo Vázquez Prieto</nombre>
+        <curso>2º ESO A</curso>
+        <dni>X9012345I</dni>
+        <fechaNacimiento>25/02/2011</fechaNacimiento>
+        <nombresProgenitores>
+            <progenitor>Sergio Vázquez Ramos</progenitor>
+            <progenitor>Cristina Prieto Fernández</progenitor>
+        </nombresProgenitores>
+        <correoProgenitores>
+            <correo>sergio.vazquez@email.com</correo>
+            <correo>cristina.prieto@email.com</correo>
+        </correoProgenitores>
+        <asignaturas>
+            <asignaturaId>6</asignaturaId>
+            <asignaturaId>8</asignaturaId>
+            <asignaturaId>10</asignaturaId>
+        </asignaturas>
+        <ausencias>
+            <ausenciaId>34</ausenciaId>
+            <ausenciaId>35</ausenciaId>
+            <ausenciaId>36</ausenciaId>
+        </ausencias>
+    </alumno>
+
+    <alumno>
+        <id>10</id>
+        <nombre>Valentina Núñez Delgado</nombre>
+        <curso>2º ESO A</curso>
+        <dni>X0123456J</dni>
+        <fechaNacimiento>30/08/2011</fechaNacimiento>
+        <nombresProgenitores>
+            <progenitor>Luis Núñez Medina</progenitor>
+            <progenitor>Rosa Delgado Vargas</progenitor>
+        </nombresProgenitores>
+        <correoProgenitores>
+            <correo>luis.nunez@email.com</correo>
+            <correo>rosa.delgado@email.com</correo>
+        </correoProgenitores>
+        <asignaturas>
+            <asignaturaId>10</asignaturaId>
+        </asignaturas>
+        <ausencias>
+            <ausenciaId>37</ausenciaId>
+            <ausenciaId>38</ausenciaId>
+        </ausencias>
+    </alumno>
+</alumnos>

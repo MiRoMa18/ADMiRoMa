@@ -1,0 +1,43 @@
+CONTROL DE AUSENCIAS ALUMNOS
+- Guardar solo cuando el programa se detenga, cargar al principio, utilizar listas y objetos para el proceso del programa
+    y cuando se pare el programa guardar todo lo nuevo, creación, actualización y eliminado.
+- Tres clases para manejar CRUD Alumnos, Asignaturas y Ausencias
+
+- Alumno:
+    - nombre
+    - curso
+    - dni
+    - id
+    - fecha nacimiento
+    - nombresPadres
+    - correoPadres
+    - asignaturas
+    - ausencias
+    - total horas ausencias
+
+- Profesor:
+    - id
+    - nombre
+    - contraseña
+    - dni
+    - nTelefono
+    - correo
+    - asignaturas
+
+- Asignatura:
+    - Profesor
+    - alumnos
+    - id
+    - nombre
+    - cantidad horas
+
+- Ausencia:
+    - alumno
+    - id
+    - hora de la ausencia
+    - asignatura
+    - justificada o no
+    - tipo
+
+- Poder enviar correo cada vez que se cree una ausencia con contador de las ausencias
+ que le faltan para suspender (15% del total)

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profesores>
+    <profesor>
+        <id>1</id>
+        <nombre>María García López</nombre>
+        <correo>maria.garcia@instituto.es</correo>
+        <contrasena>Math2024</contrasena>
+        <dni>12345678A</dni>
+        <numTelefono>666111222</numTelefono>
+        <asignaturas>
+            <asignaturaId>1</asignaturaId>
+            <asignaturaId>2</asignaturaId>
+        </asignaturas>
+    </profesor>
+
+    <profesor>
+        <id>2</id>
+        <nombre>Carlos Martínez Ruiz</nombre>
+        <correo>carlos.martinez@instituto.es</correo>
+        <contrasena>Lengua2024</contrasena>
+        <dni>23456789B</dni>
+        <numTelefono>666222333</numTelefono>
+        <asignaturas>
+            <asignaturaId>3</asignaturaId>
+            <asignaturaId>4</asignaturaId>
+        </asignaturas>
+    </profesor>
+
+    <profesor>
+        <id>3</id>
+        <nombre>Ana Fernández Torres</nombre>
+        <correo>ana.fernandez@instituto.es</correo>
+        <contrasena>English2024</contrasena>
+        <dni>34567890C</dni>
+        <numTelefono>666333444</numTelefono>
+        <asignaturas>
+            <asignaturaId>5</asignaturaId>
+            <asignaturaId>6</asignaturaId>
+        </asignaturas>
+    </profesor>
+
+    <profesor>
+        <id>4</id>
+        <nombre>José Luis Sánchez Pérez</nombre>
+        <correo>joseluis.sanchez@instituto.es</correo>
+        <contrasena>Science2024</contrasena>
+        <dni>45678901D</dni>
+        <numTelefono>666444555</numTelefono>
+        <asignaturas>
+            <asignaturaId>7</asignaturaId>
+            <asignaturaId>8</asignaturaId>
+        </asignaturas>
+    </profesor>
+
+    <profesor>
+        <id>5</id>
+        <nombre>Laura Rodríguez Moreno</nombre>
+        <correo>laura.rodriguez@instituto.es</correo>
+        <contrasena>History2024</contrasena>
+        <dni>56789012E</dni>
+        <numTelefono>666555666</numTelefono>
+        <asignaturas>
+            <asignaturaId>9</asignaturaId>
+            <asignaturaId>10</asignaturaId>
+        </asignaturas>
+    </profesor>
+</profesores>

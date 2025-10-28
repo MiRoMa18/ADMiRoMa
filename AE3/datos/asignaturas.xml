@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<asignaturas>
+    <asignatura>
+        <id>1</id>
+        <nombre>Matemáticas 1º ESO</nombre>
+        <profesorId>1</profesorId>
+        <cantHoras>120</cantHoras>
+        <alumnos>
+            <alumnoId>1</alumnoId>
+            <alumnoId>2</alumnoId>
+            <alumnoId>3</alumnoId>
+            <alumnoId>4</alumnoId>
+        </alumnos>
+    </asignatura>
+
+    <asignatura>
+        <id>2</id>
+        <nombre>Matemáticas 2º ESO</nombre>
+        <profesorId>1</profesorId>
+        <cantHoras>120</cantHoras>
+        <alumnos>
+            <alumnoId>5</alumnoId>
+            <alumnoId>6</alumnoId>
+            <alumnoId>7</alumnoId>
+        </alumnos>
+    </asignatura>
+
+    <asignatura>
+        <id>3</id>
+        <nombre>Lengua Castellana 1º ESO</nombre>
+        <profesorId>2</profesorId>
+        <cantHoras>140</cantHoras>
+        <alumnos>
+            <alumnoId>1</alumnoId>
+            <alumnoId>2</alumnoId>
+            <alumnoId>3</alumnoId>
+            <alumnoId>4</alumnoId>
+        </alumnos>
+    </asignatura>
+
+    <asignatura>
+        <id>4</id>
+        <nombre>Lengua Castellana 2º ESO</nombre>
+        <profesorId>2</profesorId>
+        <cantHoras>140</cantHoras>
+        <alumnos>
+            <alumnoId>5</alumnoId>
+            <alumnoId>6</alumnoId>
+            <alumnoId>7</alumnoId>
+        </alumnos>
+    </asignatura>
+
+    <asignatura>
+        <id>5</id>
+        <nombre>Inglés 1º ESO</nombre>
+        <profesorId>3</profesorId>
+        <cantHoras>105</cantHoras>
+        <alumnos>
+            <alumnoId>1</alumnoId>
+            <alumnoId>2</alumnoId>
+            <alumnoId>3</alumnoId>
+            <alumnoId>4</alumnoId>
+            <alumnoId>8</alumnoId>
+        </alumnos>
+    </asignatura>
+
+    <asignatura>
+        <id>6</id>
+        <nombre>Inglés 2º ESO</nombre>
+        <profesorId>3</profesorId>
+        <cantHoras>105</cantHoras>
+        <alumnos>
+            <alumnoId>5</alumnoId>
+            <alumnoId>6</alumnoId>
+            <alumnoId>7</alumnoId>
+            <alumnoId>9</alumnoId>
+        </alumnos>
+    </asignatura>
+
+    <asignatura>
+        <id>7</id>
+        <nombre>Física y Química 1º ESO</nombre>
+        <profesorId>4</profesorId>
+        <cantHoras>100</cantHoras>
+        <alumnos>
+            <alumnoId>1</alumnoId>
+            <alumnoId>2</alumnoId>
+            <alumnoId>3</alumnoId>
+            <alumnoId>4</alumnoId>
+            <alumnoId>8</alumnoId>
+        </alumnos>
+    </asignatura>
+
+    <asignatura>
+        <id>8</id>
+        <nombre>Biología y Geología 2º ESO</nombre>
+        <profesorId>4</profesorId>
+        <cantHoras>100</cantHoras>
+        <alumnos>
+            <alumnoId>5</alumnoId>
+            <alumnoId>6</alumnoId>
+            <alumnoId>7</alumnoId>
+            <alumnoId>9</alumnoId>
+        </alumnos>
+    </asignatura>
+
+    <asignatura>
+        <id>9</id>
+        <nombre>Geografía e Historia 1º ESO</nombre>
+        <profesorId>5</profesorId>
+        <cantHoras>105</cantHoras>
+        <alumnos>
+            <alumnoId>1</alumnoId>
+            <alumnoId>2</alumnoId>
+            <alumnoId>3</alumnoId>
+            <alumnoId>4</alumnoId>
+            <alumnoId>8</alumnoId>
+        </alumnos>
+    </asignatura>
+
+    <asignatura>
+        <id>10</id>
+        <nombre>Geografía e Historia 2º ESO</nombre>
+        <profesorId>5</profesorId>
+        <cantHoras>105</cantHoras>
+        <alumnos>
+            <alumnoId>5</alumnoId>
+            <alumnoId>6</alumnoId>
+            <alumnoId>7</alumnoId>
+            <alumnoId>9</alumnoId>
+            <alumnoId>10</alumnoId>
+        </alumnos>
+    </asignatura>
+</asignaturas>
