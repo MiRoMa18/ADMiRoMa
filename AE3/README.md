@@ -1,0 +1,1 @@
+![](/Users/miquelroca/Desktop/Captura de pantalla 2025-10-28 a las 10.29.18.png)
