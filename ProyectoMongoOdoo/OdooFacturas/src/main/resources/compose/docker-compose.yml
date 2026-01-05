@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  # Base de datos para Odoo
+  postgres:
+    image: postgres:13
+    container_name: postgres_odoo
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: odoo
+      POSTGRES_PASSWORD: odoo
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - app_network
+
+  # ERP Odoo
+  #email: admin@empresa.com
+  #contraseña: admin
+  odoo:
+    image: odoo:16
+    container_name: odoo_app
+    depends_on:
+      - postgres
+    ports:
+      - "8069:8069"
+    environment:
+      - HOST=postgres
+      - USER=odoo
+      - PASSWORD=odoo
+    volumes:
+      - odoo_data:/var/lib/odoo
+    networks:
+      - app_network
+
+  # Base de datos MongoDB
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb_app
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: rootuser
+      MONGO_INITDB_ROOT_PASSWORD: RootPass123!
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - app_network
+
+# Volúmenes para persistencia de datos
+volumes:
+  postgres_data:
+  odoo_data:
+  mongo_data:
+
+# Red para que los contenedores se comuniquen
+networks:
+  app_network:
+    driver: bridge

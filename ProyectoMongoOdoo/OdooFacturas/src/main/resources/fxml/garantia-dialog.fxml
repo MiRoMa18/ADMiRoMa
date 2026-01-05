@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.controller.GarantiaDialogController"
+      spacing="15.0" style="-fx-background-color: white;"
+      prefWidth="600.0">
+    
+    <padding>
+        <Insets top="20.0" right="20.0" bottom="20.0" left="20.0"/>
+    </padding>
+
+    <!-- Título -->
+    <Label fx:id="lblTitulo" text="Crear Nueva Garantía" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+    
+    <Separator/>
+
+    <!-- Formulario -->
+    <GridPane hgap="15" vgap="15">
+        
+        <!-- Definir anchos de columnas -->
+        <columnConstraints>
+            <ColumnConstraints minWidth="160" prefWidth="160" maxWidth="160"/>
+            <ColumnConstraints minWidth="350" prefWidth="350" hgrow="ALWAYS"/>
+        </columnConstraints>
+        
+        <!-- Número de Factura -->
+        <Label text="Número de Factura:" GridPane.columnIndex="0" GridPane.rowIndex="0" 
+               style="-fx-font-weight: bold;" minWidth="160"/>
+        <TextField fx:id="txtNumeroFactura" GridPane.columnIndex="1" GridPane.rowIndex="0" 
+                   editable="false" style="-fx-background-color: #f0f0f0;"/>
+        
+        <!-- Cliente -->
+        <Label text="Cliente:" GridPane.columnIndex="0" GridPane.rowIndex="1" 
+               style="-fx-font-weight: bold;" minWidth="160"/>
+        <TextField fx:id="txtCliente" GridPane.columnIndex="1" GridPane.rowIndex="1"
+                   editable="false" style="-fx-background-color: #f0f0f0;"/>
+        
+        <!-- Tipo de Garantía -->
+        <Label text="Tipo de Garantía:" GridPane.columnIndex="0" GridPane.rowIndex="2" 
+               style="-fx-font-weight: bold;" minWidth="160"/>
+        <ComboBox fx:id="cmbTipo" GridPane.columnIndex="1" GridPane.rowIndex="2" 
+                  maxWidth="Infinity"/>
+        
+        <!-- Fecha de Inicio -->
+        <Label text="Fecha de Inicio:" GridPane.columnIndex="0" GridPane.rowIndex="3" 
+               style="-fx-font-weight: bold;" minWidth="160"/>
+        <DatePicker fx:id="dpFechaInicio" GridPane.columnIndex="1" GridPane.rowIndex="3" 
+                    maxWidth="Infinity"/>
+        
+        <!-- Fecha de Fin -->
+        <Label text="Fecha de Fin:" GridPane.columnIndex="0" GridPane.rowIndex="4" 
+               style="-fx-font-weight: bold;" minWidth="160"/>
+        <DatePicker fx:id="dpFechaFin" GridPane.columnIndex="1" GridPane.rowIndex="4" 
+                    maxWidth="Infinity"/>
+        
+        <!-- Duración -->
+        <Label text="Duración (meses):" GridPane.columnIndex="0" GridPane.rowIndex="5" 
+               style="-fx-font-weight: bold;" minWidth="160"/>
+        <TextField fx:id="txtDuracionMeses" GridPane.columnIndex="1" GridPane.rowIndex="5"
+                   editable="false" style="-fx-background-color: #f0f0f0;"/>
+        
+        <!-- Descripción -->
+        <Label text="Descripción:" GridPane.columnIndex="0" GridPane.rowIndex="6" 
+               style="-fx-font-weight: bold;" GridPane.valignment="TOP" minWidth="160">
+            <padding>
+                <Insets top="5.0"/>
+            </padding>
+        </Label>
+        <TextArea fx:id="txtDescripcion" GridPane.columnIndex="1" GridPane.rowIndex="6"
+                  prefRowCount="4" wrapText="true" 
+                  promptText="Ingrese una descripción de la garantía..."/>
+        
+    </GridPane>
+
+    <!-- Botones -->
+    <HBox spacing="10.0" alignment="CENTER_RIGHT">
+        <padding>
+            <Insets top="10.0"/>
+        </padding>
+        
+        <Button fx:id="btnCancelar" text="Cancelar" onAction="#handleCancelar"
+                style="-fx-background-color: #9E9E9E; -fx-text-fill: white; 
+                       -fx-cursor: hand; -fx-padding: 10px 25px;"/>
+        
+        <Button fx:id="btnGuardar" text="Guardar" onAction="#handleGuardar" defaultButton="true"
+                style="-fx-background-color: #4CAF50; -fx-text-fill: white; 
+                       -fx-cursor: hand; -fx-padding: 10px 25px; -fx-font-weight: bold;"/>
+    </HBox>
+
+</VBox>

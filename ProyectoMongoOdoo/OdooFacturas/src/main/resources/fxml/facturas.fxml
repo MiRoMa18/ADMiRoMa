@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.controller.FacturasController"
+      spacing="15.0" style="-fx-background-color: #ECEFF1;">
+    
+    <padding>
+        <Insets top="20.0" right="20.0" bottom="20.0" left="20.0"/>
+    </padding>
+
+    <!-- Encabezado -->
+    <HBox alignment="CENTER_LEFT" spacing="20.0">
+        <Label text="📄 Facturas" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #263238;"/>
+        
+        <Region HBox.hgrow="ALWAYS"/>
+        
+        <Button fx:id="btnRefrescar" text="🔄 Actualizar" onAction="#cargarFacturas"
+                style="-fx-background-color: #2196F3; -fx-text-fill: white; 
+                       -fx-cursor: hand; -fx-padding: 10px 20px;"/>
+    </HBox>
+
+    <!-- Filtros -->
+    <HBox spacing="10.0" alignment="CENTER_LEFT" style="-fx-background-color: white; -fx-padding: 15px; -fx-background-radius: 5px;">
+        <Label text="Buscar:"/>
+        <TextField fx:id="txtBuscar" promptText="Cliente o número de factura..." 
+                   prefWidth="300.0" onKeyReleased="#filtrarFacturas"/>
+        
+        <Label text="Estado:"/>
+        <ComboBox fx:id="cmbEstado" prefWidth="150.0" onAction="#filtrarFacturas"/>
+        
+        <Label fx:id="lblTotal" text="Total: 0 facturas" style="-fx-text-fill: #666666;">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+    </HBox>
+
+    <!-- Tabla de facturas -->
+    <TableView fx:id="tableFacturas" VBox.vgrow="ALWAYS"
+               style="-fx-background-color: white; -fx-background-radius: 5px;">
+        <columns>
+            <TableColumn fx:id="colId" text="ID" prefWidth="60.0"/>
+            <TableColumn fx:id="colNumero" text="Número" prefWidth="150.0"/>
+            <TableColumn fx:id="colCliente" text="Cliente" prefWidth="250.0"/>
+            <TableColumn fx:id="colFecha" text="Fecha" prefWidth="120.0"/>
+            <TableColumn fx:id="colImporte" text="Importe" prefWidth="120.0"/>
+            <TableColumn fx:id="colEstado" text="Estado" prefWidth="100.0"/>
+            <TableColumn fx:id="colGarantia" text="Garantía" prefWidth="100.0"/>
+            <TableColumn fx:id="colAcciones" text="Acciones" prefWidth="180.0"/>
+        </columns>
+        
+        <placeholder>
+            <Label text="No hay facturas para mostrar" style="-fx-text-fill: #999999;"/>
+        </placeholder>
+    </TableView>
+
+    <!-- Barra de estado -->
+    <HBox spacing="10.0" alignment="CENTER_LEFT">
+        <Label fx:id="lblEstado" text="Listo" style="-fx-text-fill: #666666;"/>
+        <Region HBox.hgrow="ALWAYS"/>
+        <Label fx:id="lblConexion" text="● Conectado a Odoo" style="-fx-text-fill: #4CAF50;"/>
+    </HBox>
+
+</VBox>

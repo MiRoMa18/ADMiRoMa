@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.controller.GarantiasController"
+      spacing="15.0" style="-fx-background-color: #ECEFF1;">
+    
+    <padding>
+        <Insets top="20.0" right="20.0" bottom="20.0" left="20.0"/>
+    </padding>
+
+    <!-- Encabezado -->
+    <HBox alignment="CENTER_LEFT" spacing="20.0">
+        <Label text="🛡️ Garantías" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #263238;"/>
+        
+        <Region HBox.hgrow="ALWAYS"/>
+        
+        <Button fx:id="btnRefrescar" text="🔄 Actualizar" onAction="#cargarGarantias"
+                style="-fx-background-color: #2196F3; -fx-text-fill: white; 
+                       -fx-cursor: hand; -fx-padding: 10px 20px;"/>
+    </HBox>
+
+    <!-- Filtros -->
+    <HBox spacing="10.0" alignment="CENTER_LEFT" style="-fx-background-color: white; -fx-padding: 15px; -fx-background-radius: 5px;">
+        <Label text="Buscar:"/>
+        <TextField fx:id="txtBuscar" promptText="Cliente o número de factura..." 
+                   prefWidth="300.0" onKeyReleased="#filtrarGarantias"/>
+        
+        <Label text="Estado:"/>
+        <ComboBox fx:id="cmbEstado" prefWidth="150.0" onAction="#filtrarGarantias"/>
+        
+        <Label fx:id="lblTotal" text="Total: 0 garantías" style="-fx-text-fill: #666666;">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+    </HBox>
+
+    <!-- Alertas de garantías próximas a expirar -->
+    <HBox fx:id="alertaBox" spacing="10.0" alignment="CENTER_LEFT" visible="false"
+          style="-fx-background-color: #FFF3CD; -fx-padding: 15px; -fx-background-radius: 5px; -fx-border-color: #FFC107; -fx-border-radius: 5px;">
+        <Label text="⚠️" style="-fx-font-size: 20px;"/>
+        <Label fx:id="lblAlerta" text="X garantías están próximas a expirar" 
+               style="-fx-text-fill: #856404; -fx-font-weight: bold;"/>
+    </HBox>
+
+    <!-- Tabla de garantías -->
+    <TableView fx:id="tableGarantias" VBox.vgrow="ALWAYS"
+               style="-fx-background-color: white; -fx-background-radius: 5px;">
+        <columns>
+            <TableColumn fx:id="colFactura" text="Factura" prefWidth="120.0"/>
+            <TableColumn fx:id="colCliente" text="Cliente" prefWidth="200.0"/>
+            <TableColumn fx:id="colTipo" text="Tipo" prefWidth="150.0"/>
+            <TableColumn fx:id="colFechaInicio" text="Inicio" prefWidth="100.0"/>
+            <TableColumn fx:id="colFechaFin" text="Fin" prefWidth="100.0"/>
+            <TableColumn fx:id="colDiasRestantes" text="Días Rest." prefWidth="90.0"/>
+            <TableColumn fx:id="colEstado" text="Estado" prefWidth="100.0"/>
+            <TableColumn fx:id="colAcciones" text="Acciones" prefWidth="200.0"/>
+        </columns>
+        
+        <placeholder>
+            <Label text="No hay garantías para mostrar" style="-fx-text-fill: #999999;"/>
+        </placeholder>
+    </TableView>
+
+    <!-- Barra de estado -->
+    <HBox spacing="10.0" alignment="CENTER_LEFT">
+        <Label fx:id="lblEstado" text="Listo" style="-fx-text-fill: #666666;"/>
+        <Region HBox.hgrow="ALWAYS"/>
+        <Label fx:id="lblConexion" text="● Conectado a MongoDB" style="-fx-text-fill: #4CAF50;"/>
+    </HBox>
+
+</VBox>

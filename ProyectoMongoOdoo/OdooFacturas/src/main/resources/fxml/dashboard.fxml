@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.controller.DashboardController"
+            prefHeight="700.0" prefWidth="1200.0">
+
+    <!-- Barra superior -->
+    <top>
+        <VBox style="-fx-background-color: #2196F3;">
+            <HBox alignment="CENTER_LEFT" spacing="20.0" style="-fx-padding: 15px 20px;">
+                <Label text="Sistema de Gestión de Facturas y Garantías" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="20.0"/>
+                    </font>
+                </Label>
+                
+                <Region HBox.hgrow="ALWAYS"/>
+                
+                <!-- Información del usuario -->
+                <HBox spacing="15.0" alignment="CENTER_RIGHT">
+                    <Label fx:id="lblUsuario" text="Usuario" textFill="WHITE">
+                        <font>
+                            <Font size="14.0"/>
+                        </font>
+                    </Label>
+                    <Label fx:id="lblRol" text="(Rol)" textFill="WHITE" 
+                           style="-fx-background-color: rgba(255,255,255,0.3); 
+                                  -fx-padding: 5px 10px; -fx-background-radius: 3px;">
+                        <font>
+                            <Font size="12.0"/>
+                        </font>
+                    </Label>
+                    <Button text="Cerrar Sesión" onAction="#handleLogout"
+                            style="-fx-background-color: #f44336; -fx-text-fill: white; 
+                                   -fx-cursor: hand; -fx-padding: 8px 15px;"/>
+                </HBox>
+            </HBox>
+        </VBox>
+    </top>
+
+    <!-- Menú lateral -->
+    <left>
+        <VBox spacing="0.0" style="-fx-background-color: #263238; -fx-min-width: 200px;">
+            <padding>
+                <Insets top="20.0" right="0.0" bottom="20.0" left="0.0"/>
+            </padding>
+
+            <Label text="MENÚ" style="-fx-text-fill: #90A4AE; -fx-padding: 10px 20px;">
+                <font>
+                    <Font name="System Bold" size="11.0"/>
+                </font>
+            </Label>
+
+            <Button fx:id="btnFacturas" text="📄 Facturas" onAction="#mostrarFacturas"
+                    prefWidth="200.0" alignment="CENTER_LEFT"
+                    style="-fx-background-color: transparent; -fx-text-fill: white; 
+                           -fx-cursor: hand; -fx-padding: 15px 20px; -fx-font-size: 14px;">
+            </Button>
+
+            <Button fx:id="btnGarantias" text="🛡️ Garantías" onAction="#mostrarGarantias"
+                    prefWidth="200.0" alignment="CENTER_LEFT"
+                    style="-fx-background-color: transparent; -fx-text-fill: white; 
+                           -fx-cursor: hand; -fx-padding: 15px 20px; -fx-font-size: 14px;">
+            </Button>
+
+            <Button fx:id="btnUsuarios" text="👥 Usuarios" onAction="#mostrarUsuarios"
+                    prefWidth="200.0" alignment="CENTER_LEFT" visible="false"
+                    style="-fx-background-color: transparent; -fx-text-fill: white; 
+                           -fx-cursor: hand; -fx-padding: 15px 20px; -fx-font-size: 14px;">
+            </Button>
+
+            <Region VBox.vgrow="ALWAYS"/>
+
+            <Separator style="-fx-background-color: #37474F;"/>
+
+            <Label fx:id="lblStats" text="Cargando estadísticas..." 
+                   style="-fx-text-fill: #90A4AE; -fx-padding: 15px 20px; -fx-font-size: 11px;"
+                   wrapText="true"/>
+        </VBox>
+    </left>
+
+    <!-- Área de contenido -->
+    <center>
+        <StackPane fx:id="contentArea" style="-fx-background-color: #ECEFF1;">
+            <!-- Pantalla de bienvenida -->
+            <VBox alignment="CENTER" spacing="20.0">
+                <Label text="¡Bienvenido!" style="-fx-font-size: 32px; -fx-font-weight: bold; -fx-text-fill: #37474F;"/>
+                <Label text="Selecciona una opción del menú lateral" style="-fx-font-size: 16px; -fx-text-fill: #607D8B;"/>
+            </VBox>
+        </StackPane>
+    </center>
+
+</BorderPane>
